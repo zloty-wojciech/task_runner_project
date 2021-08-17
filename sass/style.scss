@@ -1,0 +1,56 @@
+/* Variables */
+
+$font-text: 'Alegreya', serif;
+$font-header: 'Merriweather Sans', sans-serif;
+$color-title: #000000;
+$color-light: #fdbb2d;
+$color-background: #C9D6FF;
+$color-header: #ffffff;
+$color-text: #696c6d;
+
+$transition: all 1.2s;
+
+/* Global */
+
+*,*::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.7;
+    font-family: $font-text;
+    color: $color-text;
+}
+
+.section-title {
+    color: $color-title;
+}
+
+.section-subtitle {
+    font-style: italic;
+}
+
+/* Navigation */
+
+.navbar {
+
+    .navbar-title {
+        color: $color-light;
+    }
+}
+
+/* Header */
+
+.page-title {
+    color:$color-header;
+    font-style: italic;
+}
+
+.page-subtitle {
+    color: $color-header;
+}
+
+/* Services */
+
